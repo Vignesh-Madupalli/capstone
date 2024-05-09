@@ -1,0 +1,125 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background-color: #e03acd;
+    color: rgb(240, 232, 232);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 90px;
+    margin-right: 0.5rem;
+  }
+  
+  .site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 0.75rem; 
+  }
+  
+  .navbar-button {
+    background-color: #80b5f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .navbar-button:hover {
+    background-color: #b1b7fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+body, h2, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background-color: #5563e0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .navbar-left .logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.navbar .navbar-right .navbar-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar .navbar-right .navbar-button:hover {
+  color: #1a1b1c;
+  font: 100;
+}
+
+.site-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+.main-container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #cebae9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #7b1fa2;
+  transform: scale(1.05);
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
